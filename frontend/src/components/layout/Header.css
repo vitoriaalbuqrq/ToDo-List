@@ -1,0 +1,48 @@
+.header {
+    width: auto;
+    background-color: #FFF;
+    text-align: center;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 0 .5em;
+}
+
+.search {
+    width: 400px;
+    background-color: #e7ecef;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.search svg{
+    font-size: 20px;
+}
+
+.sort button {
+    color: #555;
+    background-color: #e7ecef;
+    border: 1px solid #c0c2c4;
+}
+
+.sort button:first-child {
+    border-radius: 20px 0 0 20px;
+}
+
+.sort button:last-child {
+    border-radius: 0 20px 20px 0;
+}
+
+.filter-options {
+    display: flex;
+    align-items: center;
+}

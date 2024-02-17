@@ -1,0 +1,67 @@
+.complete{
+    background-color: #fff;
+    border: 1px solid #666;
+    color: #000;
+    margin-right: 10px;
+}
+.remove {
+    background-color: #df2935;
+}
+
+.todo{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo p{
+    font-weight: bold;
+}
+.todo h3{
+    text-wrap: wrap;
+}
+
+/* BORDER COLOR */
+.todo.trabalho {
+    border-left: 5px solid #118ab2; 
+}
+.todo.pessoal {
+    border-left: 5px solid #f78c6b;
+}
+
+.todo.estudos {
+    border-left: 5px solid #06d6a0;
+}
+
+.todo.outra {
+    border-left: 5px solid #ef476f;
+}
+
+/* TEXT COLOR */
+.todo .trabalho{
+    color: #118ab2;
+}
+.todo .pessoal{
+    color: #f78c6b;
+}
+.todo .estudos{
+    color: #06d6a0;
+}
+.todo .outra{
+    color: #ef476f;
+}
+
+.action-buttons{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* 
+#073b4c
+*/
+

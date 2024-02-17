@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    color: #333;
+    background-color: #e7ecef;
+    width: 100%;
+    min-height: 100vh;
+}
+
+section{
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #073b4c;
+    color: #fff;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: .8;
+    transition: 0.3s;
+    font-size: .9em;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.todo-form {
+    padding-bottom: 1.5rem;
+}
+
+input, select {
+    padding: 10px 12px;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    font-size: .9em;
+    background-color: #eef3f7;
+}
+input:focus{
+    outline: none;
+}
+
+.todo-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}

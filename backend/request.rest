@@ -1,0 +1,27 @@
+POST http://localhost:3000/api/todos
+Content-Type: application/json
+
+{
+    "text": "Estudar React js",
+    "category": "Programação",
+    "isCompleted": false
+}
+
+###
+GET http://localhost:3000/api/todos
+
+###
+GET http://localhost:3000/api/todo/65cbf13e1f8ec7467119cf1c
+
+###
+DELETE http://localhost:3000/api/todo/65cbf13e1f8ec7467119cf1c
+
+###
+PUT http://localhost:3000/api/todo/65cad1b1ff84e317fca31b16
+Content-Type: application/json
+
+{
+    "text": "Estudar Node",
+    "category": "Programação",
+    "isCompleted": false
+}

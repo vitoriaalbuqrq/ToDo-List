@@ -1,0 +1,15 @@
+.todo-form{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.todo-form .btn-createTodo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.todo-form input,
+.todo-form select{
+    margin-bottom: 10px;
+}
